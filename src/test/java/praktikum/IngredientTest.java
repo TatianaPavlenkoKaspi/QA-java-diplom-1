@@ -9,19 +9,19 @@ public class IngredientTest {
 
     @Test
     public void getPrice() {
-        Ingredient ingredient = new Ingredient(SAUCE, "traditional sauce", 1000);
+        Ingredient ingredient = new Ingredient(SAUCE, "chili sauce", 1000);
         assertEquals(1000, ingredient.getPrice(),0.001f);
     }
 
     @Test
     public void getName() {
-        Ingredient ingredient = new Ingredient(SAUCE, "traditional sauce", 1000);
-        assertEquals("traditional sauce", ingredient.getName());
+        Ingredient ingredient = new Ingredient(SAUCE, "chili sauce", 1000);
+        assertEquals("chili sauce", ingredient.getName());
     }
 
     @Test
     public void getType() {
-        Ingredient ingredient = new Ingredient(SAUCE, "traditional sauce", 1000);
+        Ingredient ingredient = new Ingredient(SAUCE, "chili sauce", 1000);
         assertEquals(SAUCE, ingredient.getType());
     }
 }
