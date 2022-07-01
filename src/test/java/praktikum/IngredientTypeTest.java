@@ -16,10 +16,6 @@ public class IngredientTypeTest {
 
     private IngredientType ingredientType;
 
-    public void IngredientsTypeTest(IngredientType ingredientType) {
-        this.ingredientType = ingredientType;
-    }
-
     public IngredientTypeTest(IngredientType ingredientType) {
         this.ingredientType = ingredientType;
     }
